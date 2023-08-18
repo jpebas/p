@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/darkmode.js"></script>
+    <script defer src="js/qrcodegenerator.js"></script>
+    <script defer src="js/scrollanimation.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<header class="hidden">
+    <h2 class="logo"><a href="#">?mghty</a></h2>
+    <nav class="navigation">
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+        <a href="#">QR Code Generator</a>
+    </nav>
+    <img src="Images/moon.png" id="icon">
+</header>
+
+
+<div class="hidden">
+<!-- Navbar above -->
+
+    <div id="intro">
+        <h1>COOK. EAT. CODE. SLEEP.</h1>
+        <h2>Cook in the day. Coding in the night.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aspernatur natus voluptatem saepe iusto at fugiat eveniet.</p>
+        <p>Desktop mode only please! 😆</p>
+    </div>
+
+</div>
+
+
+<!-- About me section -->
+
+<div id="intro" class="hidden">
+    <h1>COOK. EAT. CODE. SLEEP.</h1>
+    <h2>Cook in the day. Coding in the night.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aspernatur natus voluptatem saepe iusto at fugiat eveniet.</p>
+</div>
+
+<div id="intro" class="hidden">
+    <h1>COOK. EAT. CODE. SLEEP.</h1>
+    <h2>Cook in the day. Coding in the night.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aspernatur natus voluptatem saepe iusto at fugiat eveniet.</p>
+</div>
+
+<div id="intro" class="hidden">
+    <h1>COOK. EAT. CODE. SLEEP.</h1>
+    <h2>Cook in the day. Coding in the night.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aspernatur natus voluptatem saepe iusto at fugiat eveniet.</p>
+</div>
+
+<!-- About me section -->
+
+
+<!-- QR Code Generator -->
+
+<div id="container" class="hidden">
+    <p>QR Code Generator</p>
+    <input type="text" placeholder="URL" id="qrText">
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+    <button onclick="generateQr()" id="btnGenerator">Generate QR</button>
+</div>
+
+<!-- QR Code Generator -->
+</body>
+
+</html>
