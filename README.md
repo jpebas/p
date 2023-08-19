@@ -1,2 +1,3 @@
 # portfolio
-Incomplete portfolio
+Working in progress. Wait for my cumbac...
+
