@@ -9,3 +9,8 @@ icon.onclick = function(){
     }
 }
 
+// contact alert
+
+function giveAlert() {
+    alert ('mghty1 at discord!');
+}
